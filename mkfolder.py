@@ -27,7 +27,7 @@ folder_path = path_of_folders()
 
 try:
     for i in range(n_folder):
-        folder_name = "Week" + str(i)
+        folder_name = "Week " + str(i)
         folder_full_path = os.path.join(folder_path, folder_name)
         os.makedirs(folder_full_path)
 except OSError as e:
